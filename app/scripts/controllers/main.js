@@ -7,7 +7,8 @@
  * # MainCtrl
  * Controller of the firstAppApp
  */
-angular.module('firstAppApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.helloWorld = 'Hello World!';
+
+var firstAppApp = angular.module('firstAppApp', []);
+firstAppApp.controller('MainCtrl', function($scope) {
+    $scope.name = "Zéro";
   });

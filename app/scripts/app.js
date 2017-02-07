@@ -8,5 +8,3 @@
  *
  * Main module of the application.
  */
-angular
-  .module('firstAppApp', []);
